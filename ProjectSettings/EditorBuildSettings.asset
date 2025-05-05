@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Transparent Scenario.unity
+    guid: 0ddaf04788e9c1a4ebbb936ac15f31f4
   m_configObjects: {}
