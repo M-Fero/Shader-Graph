@@ -42,7 +42,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_91511398b3454c6aa78784315575a645:
-        m_Texture: {fileID: 2800000, guid: b3493759ee775f74fb3dcf35b9d38ed6, type: 3}
+        m_Texture: {fileID: 2800000, guid: a19eabcc0435c694192649233ee79295, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DirtMask:
@@ -50,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7453ac14a6665f747b2c869288f06e1c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 98bc5dbeb85475346b4e476d4266c90f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -68,7 +68,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 1
-    - _AlphaSmooth: 1
+    - _AlphaSmooth: 0.5
     - _AlphaToMask: 1
     - _BUILTIN_AlphaClip: 1
     - _BUILTIN_Blend: 0

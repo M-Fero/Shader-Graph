@@ -9,7 +9,7 @@ public class SolarPanel : MonoBehaviour {
     [SerializeField] private Texture2D dirtMaskTextureBase;
     [SerializeField] private Texture2D dirtBrush;
     [SerializeField] private Material material;
-    [SerializeField] private TextMeshProUGUI uiText;
+    //[SerializeField] private TextMeshProUGUI uiText;
     [SerializeField] private int dirtBrushWidth;
     [SerializeField] private int dirtBrushHeight;
 
@@ -38,14 +38,14 @@ public class SolarPanel : MonoBehaviour {
         }
         dirtAmount = dirtAmountTotal;
 
-        FunctionPeriodic.Create(() => {
-            uiText.text = Mathf.RoundToInt(GetDirtAmount() * 100f) + "%";
-            Debug.Log("Dirt Amount: " + Mathf.RoundToInt(GetDirtAmount() * 100f)+"%");
-        }, .03f);
+        //FunctionPeriodic.Create(() => {
+        //    uiText.text = Mathf.RoundToInt(GetDirtAmount() * 100f) + "%";
+        //    Debug.Log("Dirt Amount: " + Mathf.RoundToInt(GetDirtAmount() * 100f)+"%");
+        //}, .03f);
     }
 
     private void Update() {
-        if (Input.GetMouseButton(0)) {
+        //if (Input.GetMouseButton(0)) {
 
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out RaycastHit raycastHit)) {
                 Vector2 textureCoord = raycastHit.textureCoord;
@@ -113,7 +113,7 @@ public class SolarPanel : MonoBehaviour {
                 //*/
 
                 dirtMaskTexture.Apply();
-            }
+            //}
         }
 
         if (Input.GetKeyDown(KeyCode.Space)) {
